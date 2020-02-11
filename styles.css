@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+span {
+    font-weight: 200;
+}
+
+footer {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 1rem;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+h3, p {
+    padding: 5px 0 0 5px;
+}
+
+.top-text {
+    width: 50%;
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+}
+
+.top-text h2 {
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.top-text p {
+    margin: 15px auto;
+    width: 85%;
+}
+
+.categorii {
+    position: relative;
+    margin: auto;
+    padding: 16rem;
+}
+
+.supervisor {
+    position: absolute;
+    width: 22rem;
+    height: 13rem;
+    top: 0%;
+    bottom: 0%;
+    left: 7rem;
+    margin: auto;
+    box-shadow:0 10px 20px grey;
+    border-radius: 2%;
+}
+
+.verde {
+    background-color: hsl(180, 62%, 55%);
+    padding: 0.1rem;
+}
+
+.team-builder {
+    position: absolute;
+    width: 22rem;
+    height: 13rem;
+    margin: auto;
+    top: 2.5rem;
+    left: 0%;
+    right: 0%;
+    box-shadow:0 10px 20px grey;
+}
+
+.rosu {
+    background-color: hsl(0, 78%, 62%);
+    padding: 0.1rem;
+}
+
+.calculator {
+    position: absolute;
+    width: 22rem;
+    height: 13rem;
+    top: 0%;
+    bottom: 0%;
+    right: 7rem;
+    margin: auto;
+    box-shadow:0 10px 20px grey;
+}
+
+.albastru {
+    background-color: hsl(212, 86%, 64%);
+    padding: 0.1rem;
+}
+
+.karma {
+    position: absolute;
+    width: 22rem;
+    height: 13rem;
+    bottom: 2.5rem;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+    box-shadow:0 10px 20px grey;
+}
+
+.galben {
+    background-color: hsl(34, 97%, 64%);
+    padding: 0.1rem;
+}
+
+img {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+@media screen and (max-width: 1350px) {
+    .supervisor {
+        position: relative;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        margin-top: 12.5rem;
+    }
+
+    .calculator {
+       
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        position: relative;
+       
+    }
+
+    .calculator, .supervisor, .team-builder, .karma {
+        width: 18rem;
+        left: 0%;
+        align-content: center;
+    }
+
+    .categorii {
+        margin: auto;
+        width: 18rem;
+        padding: 6rem;
+        
+    }
+
+    .karma {
+        position: relative;
+        margin-top: 5rem;
+    }
+}
+
