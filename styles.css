@@ -28,7 +28,7 @@ h3, p {
 }
 
 .top-text {
-    width: 50%;
+    width: 18rem;
     padding: 30px;
     margin: auto;
     text-align: center;
@@ -138,9 +138,10 @@ img {
     }
 
     .calculator, .supervisor, .team-builder, .karma {
-        width: 18rem;
-        left: 0%;
+        width: 25%;
+        height: auto;
         align-content: center;
+        margin: auto;
     }
 
     .categorii {
@@ -153,6 +154,11 @@ img {
     .karma {
         position: relative;
         margin-top: 5rem;
+    }
+
+    .top-text {
+        width: 20%;
+        margin: auto;
     }
 }
 
